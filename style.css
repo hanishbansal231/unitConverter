@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container{
+  height: 130px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  padding: 20px 20px;
+}
+input,a{
+  width: 100%;
+  padding: 8px 3px;
+}
+p{
+  padding: 5px 0;
+}
+.btn{
+  display: inline-block;
+  background: red;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+
+}
